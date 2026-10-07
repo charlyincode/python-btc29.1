@@ -12,3 +12,14 @@ articles =[
         "contenu" : "contenu 3"
     }
 ]
+
+#for article in articles:
+#    print("le titre:",article["titre"])
+#    print("l'article:",article["contenu"])
+#    print("-----------")
+
+for i in range(len(articles)):
+    print("le titre:",articles[i]["titre"])
+    print("l'article:",articles[i]["contenu"])
+    if i != len(articles) -1:
+        print("-----------")

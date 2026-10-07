@@ -1,5 +1,5 @@
-# for _ in range(10):
-#     print("bonjour")
+for _ in range(10):
+    print("bonjour")
 
 # for x in range(10):
 #     print(x)
