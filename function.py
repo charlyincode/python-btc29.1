@@ -31,7 +31,6 @@ print(res)
 def inverse(x):
     if(x==0):
         return "impossiblle de faire 1/0"
-    print("x est different de 0")
     return 1 /x
 
 print(inverse(0))
